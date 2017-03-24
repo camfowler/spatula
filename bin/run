@@ -11,6 +11,5 @@ http://feeds.feedburner.com/ChefSteps
 # http://www.annabel-langbein.com
 # https://www.donnahay.com.au/recipes/latest
 
-puts ENV['PAPRIKA_TOKEN']
 rss_checker = Spatula::RSSCheck.new(feed_urls)
 rss_checker.check
