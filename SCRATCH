@@ -1,0 +1,29 @@
+Example of RSS recipe feed
+
+	http://chelseawinter.co.nz/feed
+
+Example of recipe page
+
+	http://chelseawinter.co.nz/thai-chicken-noodle-salad/
+
+Paprika JS scrape code
+
+	https://www.paprikaapp.com/bookmarklet/
+
+
+
+
+
+Next steps:
+
+
+1. Support generation of any twitter account
+https://twitrss.me/twitter_user_to_rss/?user=donnahay
+
+2. Store a key instead of a hash, so the url can change, and the timestamp is ok.
+
+3. Have a per feed subclass that allows overriding the parsing logic. E.g., donnahay sometimes posts things that are not recipes. All her recipes live under donnahay.com.au/recipes, so can validate with that first.
+
+
+
+
